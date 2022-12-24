@@ -1,10 +1,9 @@
 import "./App.css";
-import Counter from "./features/counter/Counter";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <h1>Lesson 2</h1>
     </div>
   );
 }
