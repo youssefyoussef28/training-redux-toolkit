@@ -10,8 +10,20 @@ export const userSlice = createSlice({
     addUser: (state, action) => {
       state.value.push(action.payload);
     },
+    deleteUser: (state, action) => {
+      state.value = state.value.filter((user) => user.id !== action.payload.id);
+    },
+    udpateUser: (state, action) => {
+      state.value.map((user) => {
+        if (user.id == action.payload.id) {
+          user.username = action.payload.username;
+        }
+      });
+    },
   },
 });
 
 export default userSlice.reducer;
-export const { addUser } = userSlice.actions;
+export const { addUser, deleteUser, udpateUser } = userSlice.actions;
+
+// The filter() method creates a new array filled with elements that pass a test provided by a function.
