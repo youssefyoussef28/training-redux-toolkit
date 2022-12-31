@@ -604,8 +604,8 @@ export default Modal;
 
 - [Course API](https://course-api.com/)
 - https://course-api.com/react-useReducer-cart-project
-- cartSlice.js
 
+- cartSlice.js
 - action type
 - callback function
 - lifecycle actions
@@ -727,3 +727,6 @@ const cartSlice = createSlice({
   },
 });
 ```
+
+https://www.youtube.com/watch?v=bbkBuqC1rU4
+
