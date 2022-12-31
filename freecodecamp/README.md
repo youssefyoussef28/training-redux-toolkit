@@ -727,3 +727,5 @@ const cartSlice = createSlice({
   },
 });
 ```
+
+YT : https://www.youtube.com/watch?v=bbkBuqC1rU4
